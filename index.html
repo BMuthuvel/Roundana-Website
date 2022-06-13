@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Roundana website</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <section class="header">
+      <nav>
+   	<a href="https://youtube.com/channel/UCpu6WnWcZObD9W2taeJJjpQ"><img src="images/logo.jpeg"></a>
+   	<div class="nav-links" id="navLinks">
+	   <i class="fa fa-times" onclick="hideMenu()"></i>
+   	   <ul>
+		<li><a href="#home">HOME</a></li>
+		<li><a href="#about">ABOUT</a></li>
+		<li><a href="#projects">PROJECTS</a></li>
+		<li><a href="#founders">FOUNDERS</a></li>
+		<li><a href="#contact">CONTACT</a></li>
+   	   </ul>
+   	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+	<h1 id="home">Roundana</h1>
+	<p>A youtube channel making & broadcasting shortfilms</p>
+	<img src="images/logo01.jpeg">
+      </div>
+	
+   </section>
+
+   <section class="about">
+	<h1 id="about">About Us<hr></h1>
+	<p>Roundana is a youtube channel which currently has more than 500 subcribers.On this channel<br> you will find our shortfilms and film related vedios.We are a team of people<br> passionate about making films.we think you may like our shortfilms,<br>if you want to watch our shortfilms click the link here below</p> 
+	<a href="https://youtube.com/channel/UCpu6WnWcZObD9W2taeJJjpQ" class="hero-btn01">Roundana</a>
+   </section>
+
+
+   <section class="ourprojects">
+	<h1 id="projects">Our Projects<hr></h1>
+
+	<div class="semiyaice">
+	<img src="images/semiya ice.jpeg">
+	<p>Semiya ice is a comedy genre shortfilm.This story is set in 1982.This flim was shot in mobile</p>
+	<h3>writter&director-B.Sivaram</h3>
+	<a href="https://youtu.be/f8b2DUpwplU" class="hero-btn01">Click here to watch the flim</a>
+	</div>
+
+	<div class="vaailasani">
+	<img src="images/vaaila sani.jpeg">
+	<p>Vaaila sani is a comedy genre shortfilm.The plot what happens when a man is not able to control speaking badwords<br> when he get angry.Does he solve his problem?...<br>This film was shot in mobile</p>
+	<h3>writter&director-B.Muthuvel</h3>
+	<a href="https://youtu.be/aDUyoEJSf4I" class="hero-btn01">Click here to watch the flim</a>
+	</div>
+
+	<div class="pk">
+	<img src="images/pk.jpeg">
+	<p>PK is a psycho thriller shortfilm.The whole flim was shot in mobile.</p>
+	<h3>writter&director-B.Muthuvel</h3>
+	<a href="https://youtu.be/0AUOeWBaFco" class="hero-btn01">Click here to watch the flim</a>
+	</div>
+
+
+   </section>
+
+   <section class="founders">
+	<h1 id="founders">Founders<hr></h1>
+	<div class="row">
+	   <div class="founders-col">
+		<img src="images/founder1.jpeg">
+		<h3>B.Muthuvel</h3>
+		<p>B.Muthuvel is a writter,director,<br>cinemotographer,editor and actor who is passionate about making films and learning new things.</p>
+	   </div>
+	   <div class="founders-col">
+		<img src="images/founder2.jpeg">
+		<h3>B.Sivaram</h3>
+		<p>B.Sivaram is a writter,director,<br>cinemotographer,editor and actor who is passionate about making films and learning new things.</p>
+	   </div>
+	</div>
+   </section>
+
+   <section class="cta">
+	<h3 id="contact">Contact Us</h3>
+	<p>For any quaries and business feel free to contact us.</p>
+	<a href="mailto:roundana.odc@gmail.com" class="hero-btn">Contact Us</a>
+   </section>
+
+   <section class="footer">
+	<h3>Thanks for visiting our website,feel free to contact us on various plotforms</h3>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made by <b>B.Muthuvel</b></p>
+   </section>
+
+<!---Javascript--->
+   <script>
+	var navlinks = document.getElementById("navLinks");
+	function showMenu(){
+	   navLinks.style.right = "0";
+	}
+	function hideMenu(){
+	   navLinks.style.right = "-200px";
+	}
+   </script>
+</body>
+</html>
